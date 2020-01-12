@@ -1,0 +1,13 @@
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[user]
+	name = xtm
+	email = 603740960@qq.com
+[core]
+	autocrlf = input
+	editor = code --wait
+[color]
+	ui = auto
