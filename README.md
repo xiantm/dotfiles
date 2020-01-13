@@ -1,5 +1,5 @@
 ### Macos Dotfiles
 - Usage
 ```
-$ cd rootpath/dotfile && mv ./.* ~/
+$ cd rootpath/dotfile && cp ./.* ~/
 ```

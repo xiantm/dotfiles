@@ -11,3 +11,4 @@
 	editor = code --wait
 [color]
 	ui = auto
+	status = always
