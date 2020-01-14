@@ -14,6 +14,7 @@ alias cls='clear'
 alias sl='ls'
 alias ..='cd ..'
 alias cl='curl -L'
+alias cl5='curl -x socks5h://localhost:1080'
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;

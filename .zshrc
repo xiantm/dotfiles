@@ -118,7 +118,8 @@ export NVM_DIR="$HOME/.nvm"
 PATH=$PATH:/usr/local/sbin:/opt/apache-maven-3.5.2/bin:/Users/xiantm/breakwall/v2ray-macos
 eval $(thefuck --alias)
 
-
+#set alias
+alias cl5='curl -x socks5h://localhost:1080'
 
 # You can use whatever you want as an alias, like for Mondays:
 #eval $(thefuck --alias FUCK)

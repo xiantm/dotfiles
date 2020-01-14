@@ -7,6 +7,7 @@ export PATH=$PATH:/Applications/Visual\ Studio\ Code\ -\ Insiders.app/Contents/R
 export REACT_EDITOR=code
 
 # export EDITOR='subl -w'
+alias cl5='curl -x socks5h://localhost:1080'
 export EDITOR='code'
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
